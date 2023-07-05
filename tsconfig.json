@@ -1,0 +1,17 @@
+{
+  "compilerOptions": {
+    "target": "ESNext",
+    "module": "CommonJS",
+    "moduleResolution": "node",
+    "esModuleInterop": true,
+    "outDir": "./build",
+    "resolveJsonModule": true,
+    "isolatedModules": false,
+    "strict": true,
+    "skipLibCheck": true,
+    "noImplicitAny": true,
+    "allowJs": false
+  },
+  "include": ["src"],
+  "exclude": ["node_modules", "front/**"]
+}
